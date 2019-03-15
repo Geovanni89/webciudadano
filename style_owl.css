@@ -1,0 +1,374 @@
+<style type="text/css">
+	.titulo-eje{
+		font-family: "Panton-Black_0";
+		font-size: 32px;
+		padding-bottom: 40px;
+	}
+
+	#owl-demo .item{
+	  	background: #FFFFFF;
+	  	padding: 30px 0px;
+	  	margin: 10px;
+	  	color: #FFF;
+	  	/*-webkit-border-radius: 3px;
+	  	-moz-border-radius: 3px;
+	  	border-radius: 3px;*/
+	  	text-align: left;
+	  	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.item h1{
+		font-family: "Panton-Bold";
+		font-size: 14px;
+	}
+
+	.item p{		
+		font-size: 10px;
+		color:#000000;
+	}
+
+	#owl-demo .owl-item.active.center{
+		background: #00a56b;
+	}
+
+	#owl-demo .owl-item.active.center .item{
+		background: #00a56b;
+
+	}
+
+	/***********
+	EStilos para cuando no es  elemento central del carousel
+	**************/
+	#owl-demo .item .no_activo{
+		display: block;
+	}
+
+	#owl-demo .item .activo{
+		display: none;
+	}
+
+	#owl-demo .item .no_activo img{
+		display: block;
+		width: 30px;
+	}
+
+	#owl-demo .item .activo img{
+		display: none;
+	}
+	
+	/***********
+	EStilos para cuando SI es  elemento central del carousel
+	**************/
+	#owl-demo .owl-item.active.center .item .activo{
+		display:block;
+	}
+
+	#owl-demo .owl-item.active.center .item .no_activo{
+		display: none;
+	}
+
+	#owl-demo .owl-item.active.center .item .activo img{
+		display:block;
+	}
+
+	#owl-demo .owl-item.active.center .item .no_activo img{
+		display: none;
+	}
+
+	.team_member_content h1{
+		font-family: "Panton-Bold";
+		font-size: 14px;
+	}
+
+	.activo h1{
+		color: #FFFFFF;
+		font-size: 20px;
+	}
+
+	.activo p{
+		color: #FFFFFF;
+		font-size: 12px;
+	}
+
+	.no_activo p{
+		color: #000000;
+		font-size: 12px;
+	}
+
+	.service_item_title h1{
+		font-size: 20px;
+	}
+
+	.service_item_title img{
+		width: 50px !important;
+	}
+
+	.owl-container{
+		position: relative;
+	}
+
+	/*=========================================Segundo eje============================*/
+
+	#owl-demo-dos .item{
+	  	background: #FFFFFF;
+	  	padding: 30px 0px;
+	  	margin: 10px;
+	  	color: #FFF;
+	  	/*-webkit-border-radius: 3px;
+	  	-moz-border-radius: 3px;
+	  	border-radius: 3px;*/
+	  	text-align: left;
+	  	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#owl-demo-dos .owl-item.active.center{
+		background: #00a56b;
+	}
+
+	#owl-demo-dos .owl-item.active.center .item{
+		background: #00a56b;
+
+	}
+
+	/***********
+	EStilos para cuando no es  elemento central del carousel
+	**************/
+	#owl-demo-dos .item .no_activo{
+		display: block;
+	}
+
+	#owl-demo-dos .item .activo{
+		display: none;
+	}
+
+	#owl-demo-dos .item .no_activo img{
+		display: block;
+		width: 30px;
+	}
+
+	#owl-demo-dos .item .activo img{
+		display: none;
+	}
+	
+	/***********
+	EStilos para cuando SI es  elemento central del carousel
+	**************/
+	#owl-demo-dos .owl-item.active.center .item .activo{
+		display:block;
+	}
+
+	#owl-demo-dos .owl-item.active.center .item .no_activo{
+		display: none;
+	}
+
+	#owl-demo-dos .owl-item.active.center .item .activo img{
+		display:block;
+	}
+
+	#owl-demo-dos .owl-item.active.center .item .no_activo img{
+		display: none;
+	}
+
+	/*=========================================Tercer eje============================*/
+
+	#owl-demo-tres .item{
+	  	background: #FFFFFF;
+	  	padding: 30px 0px;
+	  	margin: 10px;
+	  	color: #FFF;
+	  	/*-webkit-border-radius: 3px;
+	  	-moz-border-radius: 3px;
+	  	border-radius: 3px;*/
+	  	text-align: left;
+	  	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#owl-demo-tres .owl-item.active.center{
+		background: #00a56b;
+	}
+
+	#owl-demo-tres .owl-item.active.center .item{
+		background: #00a56b;
+
+	}
+
+	/***********
+	EStilos para cuando no es  elemento central del carousel
+	**************/
+	#owl-demo-tres .item .no_activo{
+		display: block;
+	}
+
+	#owl-demo-tres .item .activo{
+		display: none;
+	}
+
+	#owl-demo-tres .item .no_activo img{
+		display: block;
+		width: 30px;
+	}
+
+	#owl-demo-tres .item .activo img{
+		display: none;
+	}
+	
+	/***********
+	EStilos para cuando SI es  elemento central del carousel
+	**************/
+	#owl-demo-tres .owl-item.active.center .item .activo{
+		display:block;
+	}
+
+	#owl-demo-tres .owl-item.active.center .item .no_activo{
+		display: none;
+	}
+
+	#owl-demo-tres .owl-item.active.center .item .activo img{
+		display:block;
+	}
+
+	#owl-demo-tres .owl-item.active.center .item .no_activo img{
+		display: none;
+	}
+
+	/*=========================================Cuarto eje============================*/
+
+	#owl-demo-cuatro .item{
+	  	background: #FFFFFF;
+	  	padding: 30px 0px;
+	  	margin: 10px;
+	  	color: #FFF;
+	  	/*-webkit-border-radius: 3px;
+	  	-moz-border-radius: 3px;
+	  	border-radius: 3px;*/
+	  	text-align: left;
+	  	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#owl-demo-cuatro .owl-item.active.center{
+		background: #00a56b;
+	}
+
+	#owl-demo-cuatro .owl-item.active.center .item{
+		background: #00a56b;
+
+	}
+
+	/***********
+	EStilos para cuando no es  elemento central del carousel
+	**************/
+	#owl-demo-cuatro .item .no_activo{
+		display: block;
+	}
+
+	#owl-demo-cuatro .item .activo{
+		display: none;
+	}
+
+	#owl-demo-cuatro .item .no_activo img{
+		display: block;
+		width: 30px;
+	}
+
+	#owl-demo-cuatro .item .activo img{
+		display: none;
+	}
+	
+	/***********
+	EStilos para cuando SI es  elemento central del carousel
+	**************/
+	#owl-demo-cuatro .owl-item.active.center .item .activo{
+		display:block;
+	}
+
+	#owl-demo-cuatro .owl-item.active.center .item .no_activo{
+		display: none;
+	}
+
+	#owl-demo-cuatro .owl-item.active.center .item .activo img{
+		display:block;
+	}
+
+	#owl-demo-cuatro .owl-item.active.center .item .no_activo img{
+		display: none;
+	}
+
+	/*=============================================================EL OTRO CAROUSEL========================================================================================================*/
+
+	#owl-demo-trans .item{
+	  	background: #FFFFFF;
+	  	padding: 30px 0px;
+	  	margin: 10px;
+	  	color: #FFF;
+	  	/*-webkit-border-radius: 3px;
+	  	-moz-border-radius: 3px;
+	  	border-radius: 3px;*/
+	  	text-align: left;
+	  	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.item h1{
+		font-family: "Panton-Bold";
+		font-size: 14px;
+	}
+
+	.item p{		
+		font-size: 10px;
+		color:#000000;
+	}
+
+	#owl-demo-trans .owl-item.active.center{
+		background: #00a56b;
+		
+	}
+
+	#owl-demo-trans .owl-item.active.center .item{
+		background: #00a56b;
+
+	}
+
+	/***********
+	EStilos para cuando no es  elemento central del carousel
+	**************/
+	#owl-demo-trans .item .no_activo{
+		display: block;
+	}
+
+	#owl-demo-trans .item .activo{
+		display: none;
+	}
+
+	#owl-demo-trans .item .no_activo img{
+		display: block;
+		width: 30px;
+	}
+
+	#owl-demo-trans .item .activo img{
+		display: none;
+	}
+	
+	/***********
+	EStilos para cuando SI es  elemento central del carousel
+	**************/
+	#owl-demo-trans .owl-item.active.center .item .activo{
+		width: 100% !important;
+		display:block;
+	}
+
+	#owl-demo-trans .owl-item.active.center .item .no_activo{
+		display: none;
+	}
+
+	#owl-demo-trans .owl-item.active.center .item .activo img{
+		display:block;
+	}
+
+	#owl-demo-trans .owl-item.active.center .item .no_activo img{
+		display: none;
+	}
+</style>
