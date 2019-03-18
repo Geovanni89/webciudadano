@@ -5,6 +5,15 @@
 		padding-bottom: 40px;
 	}
 
+	.owl-carousel .owl-item .activo img {	    
+	    width: 60% !important;
+	}
+
+	.owl-carousel .owl-item .activo p{
+		font-size: 14px;
+    	font-weight: bold;
+	}
+
 	#owl-demo .item{
 	  	background: #FFFFFF;
 	  	padding: 30px 0px;
