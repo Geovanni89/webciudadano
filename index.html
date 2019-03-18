@@ -346,8 +346,8 @@
 
 								</div>
 
-								<div class="services_slider_nav services_slider_nav_left" id="eje_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
-								<div class="services_slider_nav services_slider_nav_right" id="eje_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_left" id="uno_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_right" id="uno_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
 								
 
 							</div>
@@ -640,8 +640,8 @@
 
 								</div>
 
-								<div class="services_slider_nav services_slider_nav_left" id="eje_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
-								<div class="services_slider_nav services_slider_nav_right" id="eje_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_left" id="dos_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_right" id="dos_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
 								
 
 							</div>
@@ -910,8 +910,8 @@
 
 								</div>
 
-								<div class="services_slider_nav services_slider_nav_left" id="eje_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
-								<div class="services_slider_nav services_slider_nav_right" id="eje_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_left" id="tres_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_right" id="tres_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
 								
 
 							</div>
@@ -1193,8 +1193,8 @@
 
 								</div>
 
-								<div class="services_slider_nav services_slider_nav_left" id="eje_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
-								<div class="services_slider_nav services_slider_nav_right" id="eje_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_left" id="cuatro_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
+								<div class="services_slider_nav services_slider_nav_right" id="cuatro_nav_right" ><i class="fas fa-chevron-right trans_200"></i></div>
 								
 
 							</div>
@@ -1708,21 +1708,22 @@
 	$(document).ready(function(){
 
 		var contenedores = ['owl-demo','owl-demo-trans','owl-demo-dos','owl-demo-tres','owl-demo-cuatro'];
+		var slide = ['uno','trans','dos','tres','cuatro'];
 
 		contenedores.forEach(function (elemento, indice, array) {
-		    inicializa_carousel(elemento);
+		    inicializa_carousel(elemento,slide[indice]);
 		});
 
 	});
 
-	function inicializa_carousel(contenedor) {
+	function inicializa_carousel(contenedor,slide) {
 		var carousel_ = $("#"+contenedor);
 
 		carousel_.owlCarousel({
 		 		dots: true,
 		 		loop:true,
-		 		center: true,
-			    items : 7, //10 items above 1000px browser width
+		 		center: true,		 		
+			    items : 3, //10 items above 1000px browser width
 			    //itemsDesktop : [1000,5], //5 items between 1000px and 901px
 			    //itemsDesktopSmall : [900,3], // betweem 900px and 601px
 			    //itemsTablet: [600,1], //1 items between 600 and 0;
@@ -1745,18 +1746,18 @@
 		  });
 
 		// Handle Left Nav Arrow
-		if($('#trans_nav_left').length)
+		if($('#'+slide+'_nav_left').length)
 		{
-			$('#trans_slider_nav_left').on('click', function()
+			$('#'+slide+'_nav_left').on('click', function()
 			{
 				carousel_.trigger('prev.owl.carousel');
 			});
 		}
 
 		// Handle Right Nav Arrow
-		if($('#trans_nav_right').length)
+		if($('#'+slide+'_nav_right').length)
 		{
-			$('#trans_nav_right').on('click', function()
+			$('#'+slide+'_nav_right').on('click', function()
 			{
 				carousel_.trigger('next.owl.carousel');
 			});
