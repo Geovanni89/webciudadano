@@ -12,6 +12,7 @@
 	.owl-carousel .owl-item .activo p{
 		font-size: 14px;
     	font-weight: bold;
+    	color: #fff;
 	}
 
 	#owl-demo .item{
@@ -133,11 +134,11 @@
 	}
 
 	#owl-demo-dos .owl-item.active.center{
-		background: #00a56b;
+		background: #0C3F6C;
 	}
 
 	#owl-demo-dos .owl-item.active.center .item{
-		background: #00a56b;
+		background: #0C3F6C;
 
 	}
 
@@ -196,11 +197,11 @@
 	}
 
 	#owl-demo-tres .owl-item.active.center{
-		background: #00a56b;
+		background: #7E65AA;
 	}
 
 	#owl-demo-tres .owl-item.active.center .item{
-		background: #00a56b;
+		background: #7E65AA;
 
 	}
 
@@ -259,11 +260,11 @@
 	}
 
 	#owl-demo-cuatro .owl-item.active.center{
-		background: #00a56b;
+		background: #95C11F;
 	}
 
 	#owl-demo-cuatro .owl-item.active.center .item{
-		background: #00a56b;
+		background: #95C11F;
 
 	}
 
@@ -321,9 +322,9 @@
 		padding-right: 10px;
 	}
 
-	.item h1{
+	#owl-demo-trans .item h1{
 		font-family: "Panton-Bold";
-		font-size: 14px;
+		font-size: 30px;
 	}
 
 	.item p{		
@@ -331,15 +332,52 @@
 		color:#000000;
 	}
 
-	#owl-demo-trans .owl-item.active.center{
-		background: #00a56b;
-		
+	#owl-demo-trans .owl-item.active.center .igualdad{
+		background: #582A6D;
 	}
 
-	#owl-demo-trans .owl-item.active.center .item{
-		background: #00a56b;
+	#owl-demo-trans .item h2 {
+		color: #fff;
+	}
+
+	#owl-demo-trans .owl-item.active.center .item .igualdad{
+		background: #582A6D;
 
 	}
+
+	/*========= innovacion========*/
+	#owl-demo-trans .owl-item.active.center .innovacion{
+		background: #00A8E4;
+	}
+	#owl-demo-trans .owl-item.active.center .item .innovacion{
+		background: #00A8E4;
+
+	}
+	/*========= paz========*/
+	#owl-demo-trans .owl-item.active.center .paz{
+		background: #1D1D1B;
+	}
+	#owl-demo-trans .owl-item.active.center .item .paz{
+		background: #1D1D1B;
+
+	}
+	/*========= gobierno========*/
+	#owl-demo-trans .owl-item.active.center .gobierno{
+		background: #4E8994;
+	}
+	#owl-demo-trans .owl-item.active.center .item .gobierno{
+		background: #4E8994;
+
+	}
+	/*========= ciudades========*/
+	#owl-demo-trans .owl-item.active.center .ciudades{
+		background: #3873B9;
+	}
+	#owl-demo-trans .owl-item.active.center .item .ciudades{
+		background: #3873B9;
+
+	}
+
 
 	/***********
 	EStilos para cuando no es  elemento central del carousel
