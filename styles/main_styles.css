@@ -1227,6 +1227,14 @@ section
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
+}*/
+.service_item_button
+{
+	visibility: visible;
+	opacity: 1;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	font-weight: bold;
 }
 .service_item_button a
 {
@@ -1240,6 +1248,35 @@ section
 {
 	color: #452b78;
 }
+
+.botoneje1:hover
+{
+	background: #FFFFFF;
+	color: #00A984;
+	font-weight: bold;
+}
+
+.botoneje2:hover
+{
+	background: #FFFFFF;
+	color: #0C3F6C;
+	font-weight: bold;
+}
+
+.botoneje3:hover
+{
+	background: #FFFFFF;
+	color: #7E65AA;
+	font-weight: bold;
+}
+
+.botoneje4:hover
+{
+	background: #FFFFFF;
+	color: #95C11F;
+	font-weight: bold;
+}
+/*
 .services_slider .owl-item.center .services_item .services_item_inner h2
 {
 	color: #FFFFFF;
