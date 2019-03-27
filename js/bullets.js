@@ -1,143 +1,29 @@
 var obj = {
-
-0:{
-  politica:'Desarrollo comercial y fortalecimiento de las empresas locales',
-  bullet:'Las actividades comerciales en Yucatán, crecen a un ritmo de 2.9%, por lo que ocupa la posición 15 a nivel nacional.',
-  fuente:'Sistema de Cuentas Nacionales de México. INEGI'
- },
-1:{
-  politica:'Competitividad e inversión extranjera',
-  bullet:'Yucatán es el segundo estado con menor Inversión Extranjera Directa del país.',
-  fuente:'IMCO'
- },
-2:{
-  politica:'Desarrollo industrial',
-  bullet:'Las actividades industriales en Yucatán, crecen a un ritmo de 2.6%, por lo que ocupa la posición 9 a nivel nacional.',
-  fuente:'Sistema de Cuentas Nacionales de México. INEGI'
- },
-3:{
-  politica:'Impulso al turismo',
-  bullet:'Yucatán ocupa la posición 23 en cuanto a la aportación económica de Servicios de alojamiento temporal y de preparación de alimentos y bebidas.',
-  fuente:'INEGI'
- },
-4:{
-  politica:'Capital humano generador de desarrollo y trabajo decente',
-  bullet:'El salario promedio diario en Yucatán es de $291.57, el cual creció a un ritmo de 5.6% de 2007 a 2017.',
-  fuente:'IMSS'
- },
-5:{
-  politica:'Fomento empresarial y emprendimiento',
-  bullet:'Yucatán tuvo 315,196 emprendedores en el 2017, por lo que lo ubica en la posición 13 a nivel nacional.',
-  fuente:'ENOE. INEGI'
- },
-6:{
-  politica:'Desarrollo agropecuario',
-  bullet:'Yucatán aporta el 3.6% de la producción pecuaria, por lo que lo ubica en la posición 10 a nivel nacional. ',
-  fuente:'SAGARPA'
- },
-7:{
-  politica:'Desarrollo pesquero',
-  bullet:'La producción pesquera en Yucatán creció a un ritmo de 5.3%, superando la media nacional de 3.3%.',
-  fuente:'CONAPESCA'
- },
-8:{
-  politica:'Salud y bienestar',
-  bullet:'El 14.4% de la población en Yucatán no cuenta con servicios de salud, por lo que se situa en la posición 15 a nivel nacional.',
-  fuente:'CONEVAL con base en el MCS 2015'
- },
-9:{
-  politica:'Hambre cero',
-  bullet:'En Yucatán el 63% de la población contó con la seguridad del acceso constante a los alimentos, por lo que ocupa la posición 10 a nivel nacional.',
-  fuente:'CONEVAL con base en el MCS 2015'
- },
-10:{
-  politica:'            Inclusión social y atención a grupos vulnerables',
-  bullet:'El 1.9% de la población del país que presenta alguna discapacidad reside en Yucatán.',
-  fuente:'ENADID'
- },
-11:{
-  politica:'Pueblos indígenas',
-  bullet:'Yucatán es el sexto estado con mayor población indígena.',
-  fuente:'CDI'
- },
-12:{
-  politica:'Educación integral de calidad',
-  bullet:'Yucatán ocupa el sexto lugar entre las entidades con mayor rezago educativo.',
-  fuente:'CONEVAL con base en el MEC 2016 del MCS-ENIGH'
- },
-13:{
-  politica:'Acceso a la vivienda',
-  bullet:'El 15.8% de la población en Yucatán no cuenta con calidad y espacios en la vivienda, por lo que ocupa el lugar 7 a nivel nacional con mayor carencia.',
-  fuente:'CONEVAL con base en el MCS 2015'
- },
-14:{
-  politica:'Seguridad Social',
-  bullet:'Yucatán se posiciona en el lugar 18 entre los estados que tienen mayor carencia de acceso a seguridad social de la población económicamente activa.',
-  fuente:'CONEVAL con base en el MCS 2015'
- },
-15:{
-  politica:'Acceso universal a la cultura',
-  bullet:'Yucatán se posiciona como el segundo estado que cuenta con mayores recursos y actividad cultural.',
-  fuente:'ICTEM 2012'
- },
-16:{
-  politica:'Cultura tradicional',
-  bullet:'Yucatán es el segundo estado con mayor porcentaje de personas que hablan lengua indígena.',
-  fuente:'INEGI, Encuesta Intercensal 2015'
- },
-17:{
-  politica:'Bellas Artes',
-  bullet:'Yucatán es el quinto estado con mayor número de artistas.',
-  fuente:'*No viene la fuente, se concluye que es Sedeculta'
- },
-18:{
-  politica:'Educación Artística y Cultural',
-  bullet:'Yucatán es el noveno estado que cuenta con 4.1% de matriculación en las áreas de Artes y Humanidades.',
-  fuente:'SEP'
- },
-19:{
-  politica:'Patrimonio',
-  bullet:'Yucatán cuenta con dos sitios arqueológicos declarados Patrimonio de la Humanidad por la UNESCO.',
-  fuente:'UNESCO'
- },
-20:{
-  politica:'Fomento al Deporte',
-  bullet:'En 2018, Yucatán reportó 4,311 deportistas considerados talentos deportivos.',
-  fuente:'IDEY'
- },
-21:{
-  politica:'Conservación de Recursos Naturales',
-  bullet:'Yucatán se posicionó en el lugar 13 entre las entidades con mayor superficie decretada como área natural protegida.',
-  fuente:'INEGI'
- },
-22:{
-  politica:'Acción por el Clima',
-  bullet:'Yucatán ocupó el último lugar como el estado menos vulnerable al cambio climático',
-  fuente:'Atlas Nacional de Vulnerabilidad al Cambio Climático'
- },
-23:{
-  politica:'Agua Limpia y Saneamiento',
-  bullet:'Yucatán es el estado con menor tratamiento de aguas residuales en el país.',
-  fuente:'CONAGUA'
- },
-24:{
-  politica:'Manejo Integral de Residuos',
-  bullet:'Yucatán es el onceavo estado que genera el menor volumen de residuos sólidos al año.',
-  fuente:'INEGI'
- },
-25:{
-  politica:'Energía Asequible y no Contaminante',
-  bullet:'Yucatán generó 13.26 megawatt-hora por millón del PIB por lo que se posiciona en el lugar 19 con mayor intensidad energética.',
-  fuente:'SENER'
- },
-26:{
-  politica:'Vida Submarina y ecosistemas Terrestres',
-  bullet:'Yucatán es el segundo estado con menor competitividad forestal.',
-  fuente:'IMCO'
- },
-27:{
-  politica:'Movilidad Sustentable',
-  bullet:'Mérida ocupa el lugar 6 entre las 20 ciudades con mayor movilidad urbana',
-  fuente:'IMCO'
- }
+0:{ politica:'Desarrollo comercial', bullet:'En los últimos 10 años el comercio estatal creció 3%. Yucatán se ubicó en el lugar 15 con mayor crecimiento.', fuente:'Sistema de Cuentas Nacionales de México. Inegi, 2007-2017.'},
+1:{ politica:'Competitividad e inversión extranjera', bullet:'La inversión extranjera directa hacia Yucatán cayó -7.1% en promedio en los últimos 10 años. En 2018 fue la segunda con peor desempeño.', fuente:'Registro de inversiones extranjeras. Secretaría de Economía 2008-2018.'},
+2:{ politica:'Desarrollo industrial', bullet:'Las actividades industriales crecieron 2.6% en los últimos 10 años. Yucatán se ubicó en el lugar 9 con mayor crecimiento.', fuente:'Sistema de Cuentas Nacionales de México. Inegi, 2007-2017.'},
+3:{ politica:'Impulso al turismo', bullet:'Los servicios de alojamiento crecieron 1.2% en los últimos 10 años, menor que el crecimiento nacional de 1.6%.', fuente:'Sistema de Cuentas Nacionales de México. Inegi, 2007-2017.'},
+4:{ politica:'Capital humano generador de desarrollo y trabajo decente', bullet:'El crecimiento de los empleos formales en Yucatán fue de 3.5% en los últimos 10 años, similar al crecimiento nacional de 3.6%.', fuente:'Cubos de información. IMSS, 2008-2018.'},
+5:{ politica:'Fomento empresarial y emprendimiento', bullet:'Los trabajadores independientes crecieron en promedio 1.9% desde 2008. Yucatán se ubicó en el lugar 13 con mayor crecimiento.', fuente:'Encuesta Nacional de Ocupación y Empleo. Inegi, 2008-2018.'},
+6:{ politica:'Desarrollo agropecuario', bullet:'El campo yucateco creció 0.5% entre 2007 y 2017, en tanto que a nivel nacional creció 1.7%.', fuente:'Sistema de Cuentas Nacionales de México. Inegi, 2007-2017.'},
+7:{ politica:'Desarrollo pesquero', bullet:'Yucatán se colocó en el lugar 16 entre los estados con mayor crecimiento de la rentabilidad pesquera con 10.1% en los últimos 10 años.', fuente:'Servicio de información agroalimentaria y pesquera. 2007-2017.'},
+8:{ politica:'Salud y bienestar', bullet:'Un 14.4% de la población es carente por acceso a servicios de salud. Yucatán se sitúa en el lugar 15 con mayor proporción en esta carencia.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+9:{ politica:'Hambre cero', bullet:'Yucatán contó con 19.3% de población en situación de carencia por acceso a la alimentación, cifra menor al nacional de 20.1%.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+10:{ politica:'Pueblos indígenas', bullet:'Un 58.7% de la población en municipios indígenas  del estado presentaron situación de pobreza, menor a la proporción nacional de 78.1%.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+11:{ politica:'Educación integral de calidad', bullet:'Un 20.6% de la población presentó carencia por rezago educativo, cifra por encima de la media nacional de 17.4 %.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+12:{ politica:'Acceso a la vivienda', bullet:'Un 15.8% de la población presentó carencia por calidad y espacios en la vivienda, cifra superior a la media nacional de 12%.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+13:{ politica:'Seguridad social', bullet:'Un 54.2% de la población presentó carencia por acceso a la seguridad social, cifra similar a la media nacional de 55.8%.', fuente:'Resultados de pobreza en México a nivel nacional y por entidades federativas​. Coneval, 2016.'},
+14:{ politica:'Acceso universal a la cultura', bullet:'Yucatán ocupó el lugar 9 a nivel nacional en el índice de recursos culturales con 44.8 puntos, por encima del nacional de 33.4 puntos.', fuente:'Sistema de Información Estadística y Geográfica del Estado de Yucatán. Seplan, 2018.'},
+15:{ politica:'Cultura tradicional', bullet:'Yucatán es el estado con mayor población que se considera indígena con 68%, cifra tres veces a la proporción nacional de23.1%.', fuente:'Encuesta intercensal. Inegi, 2015.'},
+16:{ politica:'Bellas artes', bullet:'El estado contó con 8.5 artistas y grupos artísticos por cada 100 mil habitantes, cifra mayor al valor nacional de 2.9 por cada 100 mil habitantes.', fuente:'Red Nacional de Infromación Cultural. Sedeculta, 2018.'},
+17:{ politica:'Educación artística y  cultural', bullet:'La tasa de matrícula en artes por cada 100 mil habitantes en Yucatán fue 100.1, cifra mayor a la nacional de 85.9 por cada 100 mil habitantes.', fuente:'Anuarios Estadísticos de Educación Superior. ANUIES, 2017-2018.'},
+18:{ politica:'Patrimonio', bullet:'Un 29.9% de la población en el estado visitó al menos una vez un monumento histórico, cifra superior a la proporción nacional de 18%.', fuente:'Encuesta Nacional de Hábitos, Prácticas y Consumos Culturales. Inegi, 2010.'},
+19:{ politica:'Fomento al deporte', bullet:'Yucatán ocupó el lugar 4 a nivel nacional en el medallero de la Olimpiada Nacional del Deporte.', fuente:'Resultados de la Olimpiada Nacional del Deporte. Conade, 2018.'},
+20:{ politica:'Conservación de recursos naturales', bullet:'Un 17.5% del territorio estatal ha sido decretado como área natural protegida, cifra por debajo del promedio nacional de 19.4%.', fuente:'Registros administrativos. Comisión Nacional de Áreas Naturales Protegidas, 2017.'},
+21:{ politica:'Acción por el clima', bullet:'Yucatán presentó 0.88 puntos en el índice de vulnerabilidad al cambio climático de la producción forrajera ante estrés hídrico, cifra mayor al valor nacional de 0.76 puntos.', fuente:'Atlas Nacional de Vulnerabilidad ante el Cambio Climático. INECC, 2016.'},
+22:{ politica:'Agua limpia y saneamiento', bullet:'Yucatán ocupó el último lugar a nivel nacional con respecto al volumen de aguas residuales tratadas con 0.1 litros por cada 1,000 personas.', fuente:'Situación del Subsector Agua Potable, Alcantarillado y Saneamiento. Conagua, 2016.'},
+23:{ politica:'Manejo integral de residuos', bullet:'Yucatán generó 324 kg de residuos en promedio por persona al año, cifra menor al valor nacional de 359 kg por persona.', fuente:'Anuario estadístico y geográfico de los Estados Unidos Mexicanos. Inegi, 2016.'},
+24:{ politica:'Energía asequible y no contaminante', bullet:'Yucatán generó 13.3 mw/hr por millón del PIB, por lo que se ubicó en el lugar 19 entre las entidades con mayor intensidad energética de la economía.', fuente:'Sistema de información energética. Secretaría de Energía, 2016.'},
+25:{ politica:'Vida submarina', bullet:'Yucatán se ubicó en el lugar 6 en la calidad bacteriológica del agua del mar, con relación a 16 playas del país, es decir, una calificación apta.', fuente:'Resultados de calidad de agua de mar. Semarnat, 2018.'},
+26:{ politica:'Movilidad sustentable', bullet:'Mérida ocupó el lugar 6 entre 20 ciudades con mayor movilidad urbana al obtener 48.8 puntos, cifra mayor al promedio nacional de 44.5 puntos.', fuente:'Índice de Movilidad Urbana. IMCO, 2018.'}
 }
